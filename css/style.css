@@ -1,0 +1,136 @@
+@import "reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body {
+   background-color: #494949;
+   display: flex;
+   flex-direction: column;
+   height: auto;
+   width: 100%;    
+   align-items: left;
+   overflow: hidden;
+   font-family: "Inter";
+}
+
+.screen1 {
+    background-image: url("../images/back1.svg");
+    height: 50vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    flex-direction: row;
+    background-attachment: fixed;
+    justify-items: center;
+    align-content: space-evenly;
+}
+
+.ivan {
+    display: flex;
+    flex-direction: row;
+    font-size: 30vw;
+    font-weight: 900;
+    color: #1F1F1F;
+}
+
+.text {
+    font-size: 4vw;
+    font-weight: 500;
+    color: white;
+}
+
+.vanya1scr {
+    border: white solid 5px;
+    position: absolute;
+}
+
+#photo1 {
+    margin-top: 5vw;
+    margin-left: 5vw;
+    width: 30vw;
+    height: auto;
+    display: none;
+}
+
+#photo2 {
+    margin-top: 4vw;
+    margin-left: 5vw;
+    width: 30vw;
+    height: auto;
+    display: none;
+}
+
+#photo3 {
+    margin-top: 4vw;
+    margin-left: 65vw;
+    width: 30vw;
+    height: auto;
+    display: none;
+}
+
+#photo4 {
+    margin-top: 2.5vw;
+    margin-left: 70vw;
+    width: auto;
+    height: 45vw;
+    display: none;
+}
+
+.screen2 {
+    position: absolute;
+    flex-direction: row;
+    height: 50vw;
+    color: white;
+    font-size: 5vw;
+    font-weight: 800;
+    justify-items: right;
+    display: none;
+}
+
+#vanyastoit {
+    position: absolute;
+}
+
+#ashka {
+    margin-top: 20vw;
+    margin-left: 70vw;
+    position: absolute;
+    z-index: 10;
+    user-select: none;
+}
+
+#krest {
+    margin-top: 20vw;
+    margin-left: 70vw;
+    position: absolute;
+    display: none;
+    z-index: 100;
+    pointer-events: none;
+}
+
+#banana1 {
+    margin-top: 5vw;
+    margin-left: 40vw;
+    position: absolute;
+}
+
+
+#energy {
+    margin-top: 20vw;
+    margin-left: 40vw;
+    position: absolute;
+}
+
+#suhinichi {
+    margin-top: 2vw;
+    margin-left: 70vw;
+    position: absolute;
+}
+
+.eating-anim {
+    animation: munch 0.3s infinite;
+}
+
+
+@keyframes munch {
+    0%, 100% { margin-top: 0; }
+    50% { margin-top: -20px; }
+}
